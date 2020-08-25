@@ -30,7 +30,7 @@ int main(){
 		// Again, we only go up to the square root for efficiency purposes
 		// This second for loop checks to make sure the number is actually prime
 		for(int j = 3; j < sqrt(i); j += 2){
-			// If j divides into i evemly, then it can't be prime
+			// If j divides into i evenly, then it can't be prime
 			if(i % j == 0){
 				prime = false;
 				break;
