@@ -13,7 +13,7 @@ Find the sum of all the primes below two million.
 
 int main(){
 	// Keep a running sum
-	int sum = 0;
+	long long sum = 0;
 	// Go up to two million
 	for(int i = 2; i < 2000000; i++){
 		bool prime = true;
